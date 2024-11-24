@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sportify</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_register">S\'inscrire</string>
+    <string name="title_login">Se connecter</string>
+    <string name="title_events">Événements</string>
+</resources>

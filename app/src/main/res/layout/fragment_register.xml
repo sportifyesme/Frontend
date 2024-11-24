@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nomUtilisateur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom d'utilisateur" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/motDePasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sport"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/niveau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Niveau" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S'inscrire" />
+</LinearLayout>
